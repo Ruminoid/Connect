@@ -34,5 +34,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ruminoid.Common\Ruminoid.Common.csproj">
+      <Project>{e2b74ad6-0076-4a4c-92c1-83b1d07d4b94}</Project>
+      <Name>Ruminoid.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
