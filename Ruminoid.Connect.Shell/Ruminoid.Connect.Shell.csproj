@@ -125,5 +125,13 @@
       <Name>Ruminoid.Connect</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf">
+      <Version>1.0.8</Version>
+    </PackageReference>
+    <PackageReference Include="Ruminoid.Libraries">
+      <Version>0.2.7</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
