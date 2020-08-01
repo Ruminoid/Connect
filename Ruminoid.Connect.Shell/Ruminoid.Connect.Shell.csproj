@@ -130,7 +130,7 @@
       <Version>1.0.8</Version>
     </PackageReference>
     <PackageReference Include="Ruminoid.Libraries">
-      <Version>0.2.7</Version>
+      <Version>0.2.10</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
